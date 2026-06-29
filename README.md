@@ -38,10 +38,5 @@
          <a href=mailto:choijunhuk2007@gmail.com> <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:choijunhuk2007@gmail.com"> </a>
           </div>  <br> 
     <div align= "center">  </div> 
-    </div>
-    <div align= "center"> 
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🏅 Stats </h2> <div align= "center"> <img src="https://github-readme-stats.vercel.app/api?username=choiijunhuk&bg_color=60,8afdff,5fff5c&title_color=ffffff&text_color=ffffff"
-         /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=choiijunhuk&layout=compact&bg_color=60,8afdff,5fff5c&title_color=ffffff&text_color=ffffff"
-           /> </div> 
-    </div>
-    ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&theme=dark&show_icons=true)
+    <br>
+    ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=choijunhuk&theme=ambient_gradient&show_icons=true)
