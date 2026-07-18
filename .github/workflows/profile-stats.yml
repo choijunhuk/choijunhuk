@@ -25,7 +25,7 @@ jobs:
 
     steps:
       - name: Check out profile repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Verify statistics generator
         run: node --test scripts/generate-profile-stats.test.mjs

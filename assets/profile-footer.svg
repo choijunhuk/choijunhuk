@@ -1,0 +1,31 @@
+<svg width="1200" height="130" viewBox="0 0 1200 130" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">최준혁 GitHub 프로필 푸터</title>
+  <desc id="desc">Build, learn, ship 메시지가 표시된 터미널 스타일 푸터</desc>
+  <defs>
+    <linearGradient id="background" x1="40" y1="10" x2="1160" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.55" stop-color="#0B1F2E"/>
+      <stop offset="1" stop-color="#07313A"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="80" y1="0" x2="1120" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#36E4A2"/>
+      <stop offset="1" stop-color="#37C8FF"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#8EE8DB" stroke-opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="130" rx="22" fill="url(#background)"/>
+  <rect width="1200" height="130" rx="22" fill="url(#grid)"/>
+  <path d="M70 31H1130" stroke="#284B5D"/>
+  <circle cx="70" cy="31" r="5" fill="#36E4A2"/>
+  <circle cx="1130" cy="31" r="5" fill="#37C8FF"/>
+  <text x="78" y="82" fill="#36E4A2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" font-weight="700">$</text>
+  <text x="108" y="82" fill="#F3F8FA" font-family="Arial, sans-serif" font-size="22" font-weight="700">BUILD</text>
+  <text x="198" y="82" fill="#587585" font-family="Arial, sans-serif" font-size="22">·</text>
+  <text x="220" y="82" fill="#F3F8FA" font-family="Arial, sans-serif" font-size="22" font-weight="700">LEARN</text>
+  <text x="310" y="82" fill="#587585" font-family="Arial, sans-serif" font-size="22">·</text>
+  <text x="332" y="82" fill="#F3F8FA" font-family="Arial, sans-serif" font-size="22" font-weight="700">SHIP</text>
+  <text x="1122" y="82" fill="#8CA8B6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" text-anchor="end">MAKE IT USEFUL.</text>
+  <rect x="78" y="99" width="1044" height="3" rx="1.5" fill="url(#signal)" opacity="0.8"/>
+</svg>
