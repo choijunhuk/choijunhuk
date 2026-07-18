@@ -1,0 +1,52 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">최준혁 개발자 프로필</title>
+  <desc id="desc">제품을 끝까지 만드는 개발자 최준혁의 GitHub 프로필 배너</desc>
+
+  <defs>
+    <linearGradient id="background" x1="60" y1="20" x2="1140" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.55" stop-color="#0B1F2E"/>
+      <stop offset="1" stop-color="#07313A"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="122" y1="100" x2="960" y2="285" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#36E4A2"/>
+      <stop offset="1" stop-color="#37C8FF"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#8EE8DB" stroke-opacity="0.055"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#background)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+
+  <circle cx="1040" cy="60" r="150" fill="#29D9C2" fill-opacity="0.1" filter="url(#glow)"/>
+  <circle cx="1110" cy="310" r="190" fill="#2F9BFF" fill-opacity="0.08" filter="url(#glow)"/>
+
+  <g opacity="0.95">
+    <rect x="76" y="72" width="500" height="216" rx="18" fill="#07101B" stroke="#2E5062"/>
+    <circle cx="108" cy="104" r="6" fill="#FF6B6B"/>
+    <circle cx="130" cy="104" r="6" fill="#FFD166"/>
+    <circle cx="152" cy="104" r="6" fill="#36E4A2"/>
+    <path d="M100 138H550" stroke="#183244"/>
+
+    <text x="108" y="178" fill="#59E8B4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" font-weight="700">$ whoami</text>
+    <text x="108" y="217" fill="#E8F2F7" font-family="Arial, sans-serif" font-size="28" font-weight="700">CHOI JUNHUK</text>
+    <text x="108" y="253" fill="#9BB2BF" font-family="Arial, sans-serif" font-size="17">Computer Engineering · Product Builder</text>
+    <rect x="108" y="270" width="208" height="3" rx="1.5" fill="url(#signal)"/>
+  </g>
+
+  <g transform="translate(646 88)">
+    <text x="0" y="26" fill="#8CA8B6" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" letter-spacing="2">BUILD / LEARN / SHIP</text>
+    <text x="0" y="85" fill="#F3F8FA" font-family="Arial, sans-serif" font-size="42" font-weight="700">FROM REAL PROBLEMS</text>
+    <text x="0" y="139" fill="#36E4A2" font-family="Arial, sans-serif" font-size="42" font-weight="700">TO WORKING PRODUCTS.</text>
+    <text x="0" y="190" fill="#A8BDC8" font-family="Arial, sans-serif" font-size="18">Web · Mobile · Backend · Developer Tools</text>
+  </g>
+
+  <path d="M646 300H1116" stroke="#315263"/>
+  <circle cx="658" cy="300" r="5" fill="#36E4A2"/>
+  <circle cx="1116" cy="300" r="5" fill="#37C8FF"/>
+</svg>
