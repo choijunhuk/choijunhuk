@@ -1,0 +1,59 @@
+name: Refresh profile statistics
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/profile-stats.yml"
+      - "scripts/generate-profile-stats.mjs"
+      - "scripts/generate-profile-stats.test.mjs"
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-statistics
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Verify statistics generator
+        run: node --test scripts/generate-profile-stats.test.mjs
+
+      - name: Generate repository-owned cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN || github.token }}
+          INCLUDE_PRIVATE: ${{ secrets.PROFILE_STATS_TOKEN != '' }}
+          PROFILE_USERNAME: ${{ github.repository_owner }}
+        run: node scripts/generate-profile-stats.mjs
+
+      - name: Commit refreshed cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-stats.svg assets/top-langs.svg
+
+          if git diff --cached --quiet; then
+            echo "Profile statistics are already current."
+            exit 0
+          fi
+
+          git commit \
+            -m "Keep profile evidence current without runtime cards" \
+            -m "Refresh repository-owned GitHub statistics from the account API." \
+            -m "Constraint: Core profile images must not depend on request-time public card services" \
+            -m "Confidence: high" \
+            -m "Scope-risk: narrow" \
+            -m "Tested: node --test scripts/generate-profile-stats.test.mjs" \
+            -m "Not-tested: Private repository activity unless PROFILE_STATS_TOKEN is configured"
+          git push
