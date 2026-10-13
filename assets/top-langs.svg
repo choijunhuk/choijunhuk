@@ -19,31 +19,31 @@
   <text x="38" y="28" fill="#F3F8FA" font-family="Arial, sans-serif" font-size="15" font-weight="700">Top Languages</text>
   <text x="472" y="28" fill="#7F9AA8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" text-anchor="end">PUBLIC SOURCE BYTES</text>
   <path d="M22 42H473" stroke="#284B5D"/>
-  <rect x="22.00" y="58" width="171.08" height="10" fill="#3178C6"/>
-  <rect x="193.08" y="58" width="144.97" height="10" fill="#F7DF1E"/>
-  <rect x="338.05" y="58" width="83.57" height="10" fill="#36E4A2"/>
-  <rect x="421.62" y="58" width="20.40" height="10" fill="#A97BFF"/>
-  <rect x="442.02" y="58" width="16.90" height="10" fill="#1572B6"/>
-  <rect x="458.92" y="58" width="14.08" height="10" fill="#36E4A2"/>
+  <rect x="22.00" y="58" width="169.30" height="10" fill="#3178C6"/>
+  <rect x="191.30" y="58" width="142.38" height="10" fill="#F7DF1E"/>
+  <rect x="333.67" y="58" width="82.08" height="10" fill="#36E4A2"/>
+  <rect x="415.75" y="58" width="26.83" height="10" fill="#A97BFF"/>
+  <rect x="442.58" y="58" width="16.59" height="10" fill="#1572B6"/>
+  <rect x="459.17" y="58" width="13.83" height="10" fill="#36E4A2"/>
   <g transform="translate(22 96)">
     <circle cx="5" cy="-4" r="5" fill="#3178C6"/>
     <text x="17" y="0" fill="#DCE8EE" font-family="Arial, sans-serif" font-size="12" font-weight="600">TypeScript</text>
-    <text x="205" y="0" fill="#7F9AA8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" text-anchor="end">37.9%</text>
+    <text x="205" y="0" fill="#7F9AA8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" text-anchor="end">37.5%</text>
   </g>
   <g transform="translate(257 96)">
     <circle cx="5" cy="-4" r="5" fill="#F7DF1E"/>
     <text x="17" y="0" fill="#DCE8EE" font-family="Arial, sans-serif" font-size="12" font-weight="600">JavaScript</text>
-    <text x="205" y="0" fill="#7F9AA8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" text-anchor="end">32.1%</text>
+    <text x="205" y="0" fill="#7F9AA8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" text-anchor="end">31.6%</text>
   </g>
   <g transform="translate(22 124)">
     <circle cx="5" cy="-4" r="5" fill="#36E4A2"/>
     <text x="17" y="0" fill="#DCE8EE" font-family="Arial, sans-serif" font-size="12" font-weight="600">GDScript</text>
-    <text x="205" y="0" fill="#7F9AA8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" text-anchor="end">18.5%</text>
+    <text x="205" y="0" fill="#7F9AA8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" text-anchor="end">18.2%</text>
   </g>
   <g transform="translate(257 124)">
     <circle cx="5" cy="-4" r="5" fill="#A97BFF"/>
     <text x="17" y="0" fill="#DCE8EE" font-family="Arial, sans-serif" font-size="12" font-weight="600">Kotlin</text>
-    <text x="205" y="0" fill="#7F9AA8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" text-anchor="end">4.5%</text>
+    <text x="205" y="0" fill="#7F9AA8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" text-anchor="end">5.9%</text>
   </g>
   <g transform="translate(22 152)">
     <circle cx="5" cy="-4" r="5" fill="#1572B6"/>
