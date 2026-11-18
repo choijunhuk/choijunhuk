@@ -19,11 +19,11 @@
   <text x="38" y="28" fill="#F3F8FA" font-family="Arial, sans-serif" font-size="15" font-weight="700">Top Languages</text>
   <text x="472" y="28" fill="#7F9AA8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" text-anchor="end">PUBLIC SOURCE BYTES</text>
   <path d="M22 42H473" stroke="#284B5D"/>
-  <rect x="22.00" y="58" width="139.46" height="10" fill="#36E4A2"/>
-  <rect x="161.46" y="58" width="107.77" height="10" fill="#F7DF1E"/>
-  <rect x="269.23" y="58" width="78.23" height="10" fill="#3178C6"/>
-  <rect x="347.46" y="58" width="63.19" height="10" fill="#36E4A2"/>
-  <rect x="410.65" y="58" width="47.80" height="10" fill="#E34F26"/>
+  <rect x="22.00" y="58" width="139.38" height="10" fill="#36E4A2"/>
+  <rect x="161.38" y="58" width="107.96" height="10" fill="#F7DF1E"/>
+  <rect x="269.34" y="58" width="78.18" height="10" fill="#3178C6"/>
+  <rect x="347.53" y="58" width="63.16" height="10" fill="#36E4A2"/>
+  <rect x="410.69" y="58" width="47.77" height="10" fill="#E34F26"/>
   <rect x="458.45" y="58" width="14.55" height="10" fill="#3776AB"/>
   <g transform="translate(22 96)">
     <circle cx="5" cy="-4" r="5" fill="#36E4A2"/>
