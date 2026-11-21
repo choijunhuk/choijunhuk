@@ -19,12 +19,12 @@
   <text x="38" y="28" fill="#F3F8FA" font-family="Arial, sans-serif" font-size="15" font-weight="700">Top Languages</text>
   <text x="472" y="28" fill="#7F9AA8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="10" text-anchor="end">PUBLIC SOURCE BYTES</text>
   <path d="M22 42H473" stroke="#284B5D"/>
-  <rect x="22.00" y="58" width="138.86" height="10" fill="#36E4A2"/>
-  <rect x="160.86" y="58" width="107.56" height="10" fill="#F7DF1E"/>
-  <rect x="268.43" y="58" width="77.89" height="10" fill="#3178C6"/>
-  <rect x="346.32" y="58" width="62.92" height="10" fill="#36E4A2"/>
-  <rect x="409.24" y="58" width="47.59" height="10" fill="#E34F26"/>
-  <rect x="456.84" y="58" width="16.16" height="10" fill="#3776AB"/>
+  <rect x="22.00" y="58" width="138.71" height="10" fill="#36E4A2"/>
+  <rect x="160.71" y="58" width="107.94" height="10" fill="#F7DF1E"/>
+  <rect x="268.66" y="58" width="77.81" height="10" fill="#3178C6"/>
+  <rect x="346.46" y="58" width="62.85" height="10" fill="#36E4A2"/>
+  <rect x="409.32" y="58" width="47.54" height="10" fill="#E34F26"/>
+  <rect x="456.86" y="58" width="16.14" height="10" fill="#3776AB"/>
   <g transform="translate(22 96)">
     <circle cx="5" cy="-4" r="5" fill="#36E4A2"/>
     <text x="17" y="0" fill="#DCE8EE" font-family="Arial, sans-serif" font-size="12" font-weight="600">C#</text>
@@ -43,12 +43,12 @@
   <g transform="translate(257 124)">
     <circle cx="5" cy="-4" r="5" fill="#36E4A2"/>
     <text x="17" y="0" fill="#DCE8EE" font-family="Arial, sans-serif" font-size="12" font-weight="600">GDScript</text>
-    <text x="205" y="0" fill="#7F9AA8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" text-anchor="end">14.0%</text>
+    <text x="205" y="0" fill="#7F9AA8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" text-anchor="end">13.9%</text>
   </g>
   <g transform="translate(22 152)">
     <circle cx="5" cy="-4" r="5" fill="#E34F26"/>
     <text x="17" y="0" fill="#DCE8EE" font-family="Arial, sans-serif" font-size="12" font-weight="600">HTML</text>
-    <text x="205" y="0" fill="#7F9AA8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" text-anchor="end">10.6%</text>
+    <text x="205" y="0" fill="#7F9AA8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="11" text-anchor="end">10.5%</text>
   </g>
   <g transform="translate(257 152)">
     <circle cx="5" cy="-4" r="5" fill="#3776AB"/>
